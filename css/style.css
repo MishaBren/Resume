@@ -20,6 +20,7 @@ p {
 
 /* main-content */
 .main-content {
+  position: relative;
   background-color: #ffffff;
   padding: 20px 20px;
 }
@@ -201,6 +202,7 @@ p {
 .tech-skils_items {
   color: #fb6d3a;
 }
+
 .tech-skils_text {
   color: #ffffff;
   font-style: normal;
@@ -210,4 +212,29 @@ p {
 }
 .soft-skils {
   margin-top: 55px;
+}
+.project-list_link:hover {
+  color: #fb6d3a;
+}
+.project-list_item:hover {
+  color: #fb6d3a;
+}
+.contact_link:hover {
+  color: #fb6d3a;
+}
+
+.position-ukraine {
+  position: absolute;
+  right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .position-ukraine {
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .position-ukraine {
+    bottom: 40px;
+  }
 }
