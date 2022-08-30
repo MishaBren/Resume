@@ -3,6 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
 }
+p {
+  margin: 5px;
+}
 /* main */
 .main {
   display: flex;
