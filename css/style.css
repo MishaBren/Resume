@@ -81,8 +81,6 @@ body {
   margin-left: 10px;
 }
 /* Work */
-.work {
-}
 .work-position {
   font-style: normal;
   font-weight: 700;
@@ -144,11 +142,10 @@ body {
 
 .photo {
   width: 370px;
+  margin-bottom: 30px;
 }
 
 /* Контакти */
-.sidebar {
-}
 .Sidebar-title {
   color: #ffffff;
   font-style: normal;
