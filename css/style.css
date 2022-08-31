@@ -28,7 +28,7 @@ p {
   .main-content {
     background-color: #ffffff;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 60px 90px;
   }
 }
 
@@ -229,7 +229,7 @@ p {
 }
 @media screen and (max-width: 767px) {
   .position-ukraine {
-    top: 40px;
+    display: none;
   }
 }
 
